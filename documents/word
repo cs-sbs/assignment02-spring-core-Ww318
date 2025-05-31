@@ -1,0 +1,29 @@
+用户管理系统
+
+项目结构规划
+src/main/java/org/example/
+├── Main.java
+├── config/
+│   ├── AppConfig.java
+│   └── AopConfig.java
+├── service/
+│   ├── UserService.java
+│   └── UserServiceImpl.java
+├── aspect/
+│   └── LoggingAspect.java
+└── model/
+    └── User.java
+
+src/main/resources/
+└── applicationContext.xml
+
+documents/
+├── REPORT.md
+└── run-result.png
+
+1. 配置 Maven 依赖 (pom.xml)
+2. 实现模型类 (User.java)
+3. 实现服务接口和类 (UserService)
+4. 实现日志切面 (LoggingAspect.java)
+5. 配置 Spring (AppConfig.java)
+6. 主测试类 (Main.java)
